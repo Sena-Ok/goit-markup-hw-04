@@ -510,7 +510,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.overlay-box {
+.overlay-text  {
   position: absolute;
   top: 0;
   left: 0;
@@ -522,15 +522,13 @@ body {
   padding-left: 32px;
   padding-right: 32px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay-text {
   color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
   line-height: 1,5;
   letter-spacing: 0.32px;
 }
-.link-catalog-portf:hover .overlay-box{
+.link-catalog-portf:hover .overlay-text{
   transform: translateY(0);
 }
 /*modal*/
