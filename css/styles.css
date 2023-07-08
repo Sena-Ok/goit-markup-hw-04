@@ -179,6 +179,7 @@ body {
   background-position: center center;
   background-size: cover;
   max-width: 1440px;
+  margin: auto;
 }
 .hero-box {
   display: flex;
